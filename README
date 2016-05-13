@@ -1,0 +1,6 @@
+This package containe:
+
+- the log files of JHU for the extraction of decay weights into WW
+- the script used to submit the JHU jobs (runJHUDecay.sh)
+- the program parse.py to parse those log files and create a pickle file with the information to be used for decay weights determination in BWReweightingEWKSinglet
+- the program anaIntegral.py which extracts the global integrals of the samples reweightd with BWReweightingEWKSinglet and computes the global shift to be used to recover normalization
